@@ -1,4 +1,9 @@
 @media screen and (max-width: 700px) {
+  .header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .header h1 {
     top: 40%;
     left: 23%;
@@ -14,15 +19,20 @@
     padding: 100px 0px 100px 0px;
   }
   .items .product {
-    display: block;
+    display: grid;
+    margin: auto;
   }
 
-  .product-1 {
+  .items .product .product-1 {
     padding-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 0;
   }
-  .product-2 {
+  .items .product .product-2 {
     padding-bottom: 20px;
+    margin-left: 0px;
+  }
+  .items .product .product-3 {
+    margin-left: 0px;
   }
 
   .contact .bagian-input {
