@@ -1,4 +1,8 @@
 // animation particles.js from "https://vincentgarreau.com/particles.js/"
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load("particles-js", "particlesjs-config.json", function () {
+  console.log("callback - particles.js config loaded");
+});
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector(".ml3");
@@ -20,11 +24,6 @@ anime
     easing: "easeOutExpo",
     delay: 500,
   });
-
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load("particles-js", "particlesjs-config.json", function () {
-  console.log("callback - particles.js config loaded");
-});
 
 // animation from "https://cssanimation.rocks/scroll-animations/"
 
