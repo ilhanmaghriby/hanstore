@@ -1,0 +1,33 @@
+@media screen and (max-width: 700px) {
+  .header h1 {
+    top: 40%;
+    left: 23%;
+    font-size: 40px;
+  }
+  .about {
+    padding-top: 15px;
+  }
+  .about p {
+    font-size: 15px;
+  }
+  #about {
+    padding: 100px 0px 100px 0px;
+  }
+  .items .product {
+    display: block;
+  }
+
+  .product-1 {
+    padding-bottom: 20px;
+    margin-left: 50px;
+  }
+  .product-2 {
+    padding-bottom: 20px;
+  }
+
+  .contact .bagian-input {
+    margin-bottom: 15px;
+    align-items: center;
+    width: 10px;
+  }
+}

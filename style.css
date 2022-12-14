@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+.navbar a {
+  color: black;
+  padding: 15px 30px;
+}
+
+.navbar a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.header h1 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+#particles-js {
+  position: relative;
+}
+
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+#about {
+  padding: 100px 0px 200px 0px;
+}
+
+.about {
+  padding-top: 50px;
+}
+
+.items .product {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.items .product .btn {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.inline-photo {
+  border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
+  max-width: 600px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
+}
+
+.contact {
+  padding-top: 100px;
+}
+
+.contact p {
+  font-size: 13px;
+}
+
+.contact .p-bagian-bawah {
+  font-size: 8px;
+}
+
+.contact h3 {
+  font-size: 25px;
+}
+
+.contact .bagian-input {
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.contact .bagian-input button {
+  margin-top: 10px;
+}
+
+.contact .fa-linkedin {
+  padding: 5px;
+  color: black;
+}
+
+.contact .fa-whatsapp {
+  padding: 5px;
+  color: black;
+}
+
+.contact .fa-instagram {
+  padding: 5px;
+  color: black;
+}
