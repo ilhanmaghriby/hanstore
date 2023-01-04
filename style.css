@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-.navbar a {
+#navbarNav a {
   color: black;
   padding: 15px 30px;
 }
 
-.navbar a:hover {
+#navbarNav a:hover {
   background-color: grey;
   color: black;
 }
